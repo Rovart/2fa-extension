@@ -1,4 +1,4 @@
-# 2fa-extension
+# 2fa-filler-extension
 2FA chrome extension filler - Requires local server
 
 ## How to run
