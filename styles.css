@@ -1,0 +1,11 @@
+#injector2fabutton {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/assets/img/unlock.png');
+    color: white;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}

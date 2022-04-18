@@ -1,0 +1,16 @@
+{
+  "name" : "TOTP injector",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description" : "Fill 2FAs automatically from local API server",
+  "content_scripts" : [
+    {
+      "js" : ["totp.js"],
+      "css": ["styles.css"],
+      "matches" : ["http://*/login*","http://*/sign-in*","https://*/login*","https://*/sign-in*"]
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/img/unlock.png"
+  ]
+}
